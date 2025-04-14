@@ -1,6 +1,6 @@
 // import Dummy from './../../../public/dummy.pdf';
 // import Dummy from './../../public/dummy.pdf';
-import Dummy from './../../src/dummy.pdf';
+import Dummy from './../../dummy.pdf';
 
 const Test = () => {
     return (
