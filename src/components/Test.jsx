@@ -27,6 +27,8 @@ const Test = () => {
             >
                 Download CV
             </a>
+
+            Hello, Successfully Tested.
         </div>
     )
 }

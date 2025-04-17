@@ -10,7 +10,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-commit": "node scripts/generate-commit.js",
+    "update": "git add . && git commit -m \"$(npm run generate-commit --silent)\" && git push && npm run deploy"
   },
   "dependencies": {
     "react": "^19.0.0",
