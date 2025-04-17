@@ -16,7 +16,7 @@ for (let i = 0; i < length; i++) {
     commitMsg += chars.charAt(Math.floor(Math.random() * chars.length));
 }
 
-console.log(commitMsg); // <- output will be used in commit
+console.log("commitMsg here:",commitMsg); // <- output will be used in commit
 
 // Ensure logs folder exists
 const logsDir = path.join(__dirname, '../logs');
