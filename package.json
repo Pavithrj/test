@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-commit": "node scripts/generate-commit",
+    "generate-commit": "npm run generate-commit.js",
     "update": "git add . && git commit -m \"$(npm run generate-commit --silent)\" && git push && npm run deploy"
   },
   "dependencies": {
